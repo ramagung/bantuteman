@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app_sqflite/sqflite.dart';
+import 'package:app_sqflite2/sqflite2.dart';
 
 
 

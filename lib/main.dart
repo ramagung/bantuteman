@@ -1,6 +1,6 @@
-import 'package:app_sqflite/page/home_menu.dart';
+import 'package:app_sqflite2/page/home_menu.dart';
 import 'package:flutter/material.dart';
-import 'package:app_sqflite/page/about_me.dart';
+import 'package:app_sqflite2/page/about_me.dart';
 
 
 void main() => runApp(MyApp());

@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io' as io;
 import 'package:path/path.dart';
-import 'package:sqflite/sqflite.dart';
+import 'package:sqflite2/sqflite2.dart';
 import 'package:path_provider/path_provider.dart';
 import 'employee.dart';
 
