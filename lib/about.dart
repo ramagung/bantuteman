@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:app_sqflite2/sqflite2.dart';
 
+class AboutMe extends StatelessWidget {
+  get color => null;
 
-
-class MyProfil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return
@@ -29,7 +28,7 @@ class MyProfil extends StatelessWidget {
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(100),
                             color: Colors.orange,
-                            image: DecorationImage(image: AssetImage('images/Agung.jpg'),
+                            image: DecorationImage(image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRHlBlXsex0bPQ4FPpbMW3FGy-tUcs7DD_KO1vqB88RVk7DhIP&usqp=CAU'),
                                 fit: BoxFit.cover
                             )
                         ),
